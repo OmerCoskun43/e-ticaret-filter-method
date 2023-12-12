@@ -1,0 +1,62 @@
+.recommended-flex {
+  display: flex;
+  margin-left: 20rem;
+  margin-bottom: 2rem;
+}
+
+.recommended-title {
+  margin-left: 20rem;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  font-size: 20px;
+  background-color: purple;
+  width: max-content;
+  padding: 5px 10px;
+  border-radius: 1rem;
+  color: white;
+}
+
+.recommended-flex Button:hover {
+  background-color: purple;
+  color: white;
+  border: 1px solid white;
+}
+
+.recommended-flex Button {
+  color: purple;
+  background-color: white;
+  border: 1px solid purple;
+}
+
+@media screen and (max-width: 768px) {
+  .recommended-flex {
+    display: flex;
+    margin-left: 7rem;
+    margin-bottom: 1rem;
+  }
+
+  .recommended-title {
+    margin-left: 14.6rem;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-size: 15px;
+    background-color: purple;
+    width: max-content;
+    padding: 6px 12px;
+    border-radius: 1rem;
+    color: white;
+  }
+
+  .recommended-flex Button:hover {
+    background-color: purple;
+    color: white;
+    border: 1px solid white;
+  }
+
+  .recommended-flex Button {
+    color: purple;
+    background-color: white;
+    border: 1px solid purple;
+    padding: 6px;
+  }
+}

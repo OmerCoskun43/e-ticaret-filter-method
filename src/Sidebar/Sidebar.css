@@ -1,0 +1,35 @@
+.sidebar {
+  width: 15%;
+  position: fixed;
+  background-color: purple;
+  height: 100%;
+  border-right: 3px solid purple;
+  z-index: 3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  /* overflow: auto; */
+}
+
+/* .sidebar::-webkit-scrollbar {
+  display: none;
+} */
+
+.logo-container {
+  margin-bottom: 0.6rem;
+  background-color: aqua;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 0.7rem;
+}
+
+.logo-container h1 {
+  margin-top: 1.3rem;
+}
+
+@media screen and (max-width: 768px) {
+  .sidebar {
+    width: 20%;
+  }
+}

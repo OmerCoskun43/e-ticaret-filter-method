@@ -1,0 +1,17 @@
+.price-title {
+  margin-top: 20px;
+}
+
+.ml {
+  margin-left: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .price-title {
+    margin-top: 10px;
+  }
+
+  .ml {
+    margin-left: 10px;
+  }
+}

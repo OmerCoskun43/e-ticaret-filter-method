@@ -1,0 +1,17 @@
+.color-title {
+  margin-top: 1rem;
+}
+
+.color-container {
+  padding-right: 1.6rem;
+}
+
+@media screen and (max-width: 768px) {
+  .color-title {
+    margin-top: 10px;
+  }
+
+  .color-container {
+    padding-right: 10px;
+  }
+}

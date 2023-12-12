@@ -1,0 +1,62 @@
+nav {
+  display: flex;
+  border-bottom: 2px solid purple;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  z-index: 999;
+  margin-left: 2rem;
+  background-color: aqua;
+}
+
+input {
+  padding: 12px 20px;
+  border: none;
+  background: purple;
+
+  outline: none;
+  margin-right: 20px;
+  border-radius: 5px;
+  position: relative;
+  width: 14rem;
+}
+
+::placeholder {
+  color: white;
+}
+
+.nav-icons {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-left: 2rem;
+  color: purple;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  nav {
+    display: flex;
+    border-bottom: 2px solid purple;
+    justify-content: center;
+    align-items: center;
+    padding: 13.4px;
+    z-index: 999;
+    margin-left: 5rem;
+    background-color: aqua;
+  }
+  input {
+    padding: 12px 20px;
+    border: none;
+    background: purple;
+
+    outline: none;
+    margin-right: 20px;
+    border-radius: 5px;
+    position: relative;
+    width: 10rem;
+  }
+  ::placeholder {
+    font-size: 14px;
+    text-align: center;
+  }
+}

@@ -1,0 +1,111 @@
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 13.5rem;
+  margin-top: 3rem;
+  z-index: -2;
+  /* border: 3px solid red; */
+}
+
+.card {
+  margin: 5px;
+  border: 1px solid purple !important;
+  padding: 5px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-img {
+  width: 160px !important;
+  height: 120px !important;
+  margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .card-img {
+    width: 80px !important;
+    height: 60px !important;
+    margin-bottom: 1rem;
+  }
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 5.5rem;
+    margin-top: 1rem;
+    z-index: -2;
+    /* border: 3px solid red; */
+  }
+
+  .card {
+    margin: 5px;
+    border: 1px solid purple !important;
+    padding: 5px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .card-title {
+    margin-bottom: 0.8rem;
+    font-size: 14px !important;
+    font-weight: bold;
+  }
+
+  .card-reviews {
+    margin-bottom: 0.8rem;
+    display: flex;
+  }
+
+  .rating-star {
+    color: #d5ab55;
+  }
+
+  .total-reviews {
+    font-size: 0.6rem;
+    margin-left: 8px;
+  }
+
+  .card-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.card-title {
+  margin-bottom: 1rem;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.card-reviews {
+  margin-bottom: 1rem;
+  display: flex;
+}
+
+.rating-star {
+  color: #d5ab55;
+}
+
+.total-reviews {
+  font-size: 0.9rem;
+  margin-left: 10px;
+}
+
+.card-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bag-icon {
+  color: #535353;
+}
