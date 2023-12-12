@@ -33,6 +33,14 @@ li {
 
 @media screen and (max-width: 768px) {
   .btns {
+    margin-left: 2rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .btns {
     margin-left: 6px;
+    padding: 0px;
+    margin-left: -0px;
   }
 }

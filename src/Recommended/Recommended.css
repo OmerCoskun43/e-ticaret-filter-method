@@ -31,7 +31,7 @@
 @media screen and (max-width: 768px) {
   .recommended-flex {
     display: flex;
-    margin-left: 7rem;
+    margin-left: 10rem;
     margin-bottom: 1rem;
   }
 
@@ -57,6 +57,14 @@
     color: purple;
     background-color: white;
     border: 1px solid purple;
-    padding: 6px;
+    padding: 3px;
+    font-size: 10px;
+  }
+  .recommended-flex {
+    /* border: 3px solid red; */
+    margin-left: 5rem;
+  }
+  .recommended-title {
+    margin-left: 7rem;
   }
 }
