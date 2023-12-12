@@ -61,10 +61,24 @@ input {
     font-size: 14px;
     text-align: center;
   }
+  .nav-icons {
+    width: 1rem;
+    height: 1rem;
+    margin-left: 1rem;
+    color: purple;
+    font-weight: bold;
+  }
 }
 
-@media screen and (max-width: 330px) {
+@media screen and (max-width: 384px) {
   nav {
-    padding: 0px 10px;
+    padding: 12px 16px;
+  }
+  .nav-icons {
+    width: 1rem;
+    height: 1rem;
+    margin-left: 1rem;
+    color: purple;
+    font-weight: bold;
   }
 }
