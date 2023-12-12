@@ -39,7 +39,7 @@ input {
     border-bottom: 2px solid purple;
     justify-content: center;
     align-items: center;
-    padding: 13.4px;
+    padding: 13.5px;
     z-index: 999;
     margin-left: 5rem;
     background-color: aqua;
@@ -48,9 +48,11 @@ input {
     padding: 12px 20px;
     border: none;
     background: purple;
+    /* border: 1rem solid red; */
 
     outline: none;
     margin-right: 20px;
+    margin-left: 12rem;
     border-radius: 5px;
     position: relative;
     width: 10rem;
@@ -58,5 +60,13 @@ input {
   ::placeholder {
     font-size: 14px;
     text-align: center;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  nav {
+    padding: 0px 10px;
+  }
+  input {
   }
 }
